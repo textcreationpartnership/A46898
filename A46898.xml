@@ -1,0 +1,618 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Plain dealing: in a dialogue between Mr. Johnson and Mr. Wary his friend, a stock-jobber, and a petitoner against the E-- I-- Company, about stock-jobbing, and the said company.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1691</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 32 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A46898</idno>
+            <idno type="STC">Wing J769</idno>
+            <idno type="STC">ESTC R213907</idno>
+            <idno type="EEBO-CITATION">99826159</idno>
+            <idno type="PROQUEST">99826159</idno>
+            <idno type="VID">30551</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A46898)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 30551)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1761:8)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Plain dealing: in a dialogue between Mr. Johnson and Mr. Wary his friend, a stock-jobber, and a petitoner against the E-- I-- Company, about stock-jobbing, and the said company.</title>
+               </titleStmt>
+               <extent>16 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed for S. Eddowes, under the Royal Exchange in Cornhil,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1691]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>A satire.</note>
+                  <note>Caption title.</note>
+                  <note>Imprint from colophon.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>East India Company. --  Early works to 1800.</term>
+               <term>Foreign trade regulation --  England --  Early works to 1800.</term>
+               <term>Trading companies --  England --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-06</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-06</date>
+            <label>Greg Schutz</label>Sampled and proofread</change>
+         <change>
+            <date>2011-06</date>
+            <label>Greg Schutz</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:30551:1" rendition="simple:additions"/>
+            <div type="title">
+               <p>
+                  <hi>Plain Dealing:</hi> IN A DIALOGUE BETWEEN Mr. JOHNSON and Mr. WARY his Friend, a Stock-jobber, and a Petitioner a<g ref="char:EOLhyphen"/>gainſt the <hi>E— I—</hi>Company, about Stock-job<g ref="char:EOLhyphen"/>bing, and the ſaid Company.</p>
+            </div>
+            <div type="dialogue">
+               <sp>
+                  <speaker>MR. <hi>Wary.</hi>
+                  </speaker>
+                  <p>Mr. <hi>Johnſon,</hi> your humble Servant.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Johnſon.</hi>
+                  </speaker>
+                  <p>My Friend Mr. <hi>Wary,</hi> I am glad to ſee you, what Buſineſs brings you to the <hi>Ex<g ref="char:EOLhyphen"/>change</hi> this Evening? its rare to meet you here.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>W.</hi>
+                  </speaker>
+                  <p>Truly ſo it is, I ſeldom gad abroad, but the fine Weather, and <hi>Deſire</hi> to hear how it goes with <hi>Lyme<g ref="char:EOLhyphen"/>rick,</hi> hath forced me out this Afternoon.</p>
+               </sp>
+               <sp>
+                  <speaker>M. <hi>J.</hi>
+                  </speaker>
+                  <p>You find the Sweet of it, you know the Pro<g ref="char:EOLhyphen"/>verb, <hi>Keep thy Shop and thy Shop will keep thee.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>W.</hi>
+                  </speaker>
+                  <p>You are pleaſed to be merry Sir, but what means that Croud?</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>They are <hi>Stock-jobbers.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>W.</hi>
+                  </speaker>
+                  <p>Are they ſo, I have heard much talk of them, and are they the Men?</p>
+               </sp>
+               <sp>
+                  <pb n="2" facs="tcp:30551:2"/>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Yes, and many of them now have their bel<g ref="char:EOLhyphen"/>lies full, and their purſes empty.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>W.</hi>
+                  </speaker>
+                  <p>Why I thought there had been great Gain by it, a Neighbour of mine one Mr. <hi>Hazzard,</hi> if you know him, told me he had got ſeveral thouſands of Pounds in that way.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>But had he the wit to keep 'em.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>W.</hi>
+                  </speaker>
+                  <p>Truly to that I cannot anſwer, but by your Query I ſuſpect not, and the rather, obſerving for three Weeks or a Month paſt he hath been very <hi>Dull</hi> to what he was for ſome time before, I remember about three Months ago, asking him how Trade went, he <hi>uppiſhly</hi> re<g ref="char:EOLhyphen"/>ply'd, Hang <hi>Trade,</hi> all <hi>Trade</hi> is an Aſs to <hi>Stock,</hi> there's more to be got by <hi>Stock</hi> in a Week, or ſometimes in a Day then by other Buſineſs that ever he was acquainted with in a Year, did I think he'd ſtand pilling ſtraws or thrumming caps behind the Counter, no not he, for be<g ref="char:EOLhyphen"/>ſides <hi>Eaſt India, Affrica,</hi> and <hi>Hudſon's Bay Stock,</hi> there was now <hi>Linen Stock,</hi> and <hi>Paper Stock, Copper Stock,</hi> and <hi>Venetian Mettal Stock, Glaſs Stock,</hi> and <hi>Wrack Stock, Mill Stock,</hi> and <hi>Dipping Stock,</hi> and almoſt a hundred o<g ref="char:EOLhyphen"/>ther <hi>Stocks,</hi> for which either <hi>Patents</hi> was granted or pro<g ref="char:EOLhyphen"/>curing, whereby a Man had room ſufficient to imploy his Money had he ne're ſo much, to great Advantage, and for his part he would ſell off his Goods and get in his Debts, and was reſolved to have a touch at them, but I perceive then that the Tide is turned.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Turn'd, Ay that it is with a witneſs, and if it be not the Caſe of your Neighbour <hi>Hazzard</hi> I am ſure moſt of the others had better followed the Buſineſs they had been bred to, then medled with matters they under<g ref="char:EOLhyphen"/>ſtood not, <hi>All covet all loſe,</hi> is a <hi>Motto</hi> moſt of them may aſſume, and how they will anſwer their folly to themſelves their Families and the Publick they have now time to conſider.</p>
+               </sp>
+               <sp>
+                  <pb n="3" facs="tcp:30551:2"/>
+                  <speaker>Mr. <hi>W.</hi>
+                  </speaker>
+                  <p>I profeſs it was beyond my underſtanding, neither did I think it poſſible ſuch vaſt Eſtates could be got in ſo ſhort a time as I have heard.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Nay it may be as the matter hath been ma<g ref="char:EOLhyphen"/>naged, and its very apparent here hath been ſome great <hi>Eſtates</hi> very lately got by Concern in <hi>Stocks,</hi> yet for the moſt part, what diſcerning and crafty men have poquet<g ref="char:EOLhyphen"/>ted, the inconſiderate upon a ballance of their Accompts will find wanting, and the <hi>Broakers</hi> for Buying and Sel<g ref="char:EOLhyphen"/>ling and the <hi>Book-keepers</hi> for transfers have fleeced them all.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>W.</hi>
+                  </speaker>
+                  <p>But pray Sir, how come the <hi>Stocks</hi> to ad<g ref="char:EOLhyphen"/>vance thus? The <hi>E. Indian, Affrican</hi> and <hi>Hudſons Bay</hi> Companies, are equally affected by the War with pri<g ref="char:EOLhyphen"/>vate Traders, their preſent Exportations and Importa<g ref="char:EOLhyphen"/>tions are attended with greater Riſques, higher Fraight, and new Duties, their <hi>Stocks</hi> pay Taxes, <hi>&amp;c.</hi> One would think theſe Conſiderations ſhould rather lower them.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>You are i'th right Sir, but Profit or Loſs made or ſuſtained by theſe Trades, or the Advantages and Difficulties that attend them, are not at preſent the Mo<g ref="char:EOLhyphen"/>tives which govern their <hi>Actions,</hi> but they riſe and fall as the humours of the Buyers increaſe or abate, or from a neceſſity ſome are under of Buying or Selling to an<g ref="char:EOLhyphen"/>ſwer <hi>Pollicies</hi> and <hi>Contracts</hi> they are unwittingly drawn into by ſubtil and deſigning Men; and thus the <hi>Linen-Stock</hi> which may amount to upwards of <hi>twenty thouſand Pounds,</hi> while the <hi>Drapers</hi> are generally of Opinion there will be loſs by all that's made, was carried to three hundred thouſand, and hath ſince returned to ſixty or ſeventy thouſand, not to ſay any thing of the <hi>Wrack Stock, Mill Stock,</hi> or ſome other <hi>Stocks,</hi> of which a five hun<g ref="char:EOLhyphen"/>dred or a thouſand part was ſold upon the <hi>Exchange</hi> for fifty or ſixty Pounds, when never ought appeared or was propoſed to demonſtrate their meriting ſo many Pence.</p>
+               </sp>
+               <sp>
+                  <pb n="4" facs="tcp:30551:3"/>
+                  <speaker>Mr. <hi>W.</hi>
+                  </speaker>
+                  <p>But ſtill I cannot conceive how <hi>Pollicies</hi> or <hi>Contracts</hi> can be contrived as thus to influence the <hi>Stocks</hi> or the Value of their <hi>Shares</hi> and <hi>Actions.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>I'le inform you, without doubt you have ob<g ref="char:EOLhyphen"/>ſerved, if not experienced, that a great demand for a Commodity inhances the Price, and a glut at Market ſinks it.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>W.</hi>
+                  </speaker>
+                  <p>Yes that I have.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Well then, ſuppoſe <hi>Praemio,</hi> (they are generally a certain number of <hi>Guineas)</hi> are given out by <hi>A. B.</hi> to <hi>C. D.</hi> and <hi>E. F. &amp;c.</hi> to oblige them to deliver him ſuch a parcel or number of <hi>Shares</hi> of ſuch or ſuch a <hi>Stock,</hi> as exceeds the Quantity in their own or in the hands of others, that are willing to ſell, to compleat the Parcel they muſt give higher Prices, this little riſe incites others to Buy, who being under like Engagements are afraid of a greater: now <hi>A. B.</hi> by ſelling makes his Advantage, again ſuppoſe <hi>A. B.</hi> gives Premio's to <hi>C. D. E. F. &amp;c.</hi> to oblige them to accept from him in a limited time ſuch a Parcel or Number of <hi>Shares</hi> of this or that <hi>Stock,</hi> in purſuance of this Contract, every thing that can be thought of to diſcredit the <hi>Stock</hi> is given out by him and his <hi>Emiſſaries. C. D.</hi> and E. F. in prudence ſell to make room for what they are to receive, others ſell out of fear, almoſt all offer <hi>Guineas</hi> for Security, in this hurry A. B. by buying makes his Advantage.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>W.</hi>
+                  </speaker>
+                  <p>But is there any ſo ſimples as to take <hi>Guineas</hi> upon either of theſe Accompts, for I think I rightly ap<g ref="char:EOLhyphen"/>prehend it.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Too many, <hi>Gold</hi> is ſo bewitching.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>W.</hi>
+                  </speaker>
+                  <p>But for ought I ſee by your ſuppoſitions, they are looſers by it.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>They are ſo generally, and make good St. <hi>Peters</hi> Saying, <hi>They that will be rich fall into divers temptations and a ſnare,</hi> but yet theſe Intrigues are tolle<g ref="char:EOLhyphen"/>rable
+<pb n="5" facs="tcp:30551:3"/> to thoſe Cheats acted or attempted by ſome, who having whole <hi>Stocks</hi> or the whole Number of <hi>Shares</hi> of a <hi>Stock</hi> in their power, gave or would have given <hi>Gui<g ref="char:EOLhyphen"/>neas</hi> for the refuſals of certain Parcels thereof, when they knew the takers could not comply with ſuch <hi>Contracts</hi> but upon terms which they would afterwards pleaſe to permit them.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>W.</hi>
+                  </speaker>
+                  <p>Certainly Sir, none that walk here have been guilty of ſuch <hi>Villany,</hi> it's worſe then <hi>Padding.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>It's too true, and the great grief of many a by-ſtander to obſerve our <hi>Royal Exchange,</hi> the moſt re<g ref="char:EOLhyphen"/>nowned in the Univerſe for its Structure, and the daily Concourſe of Merchants there, in the exerciſe of their no<g ref="char:EOLhyphen"/>ble and laudable Profeſſions, become a <hi>Theater</hi> for ſuch vile Practices.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>W.</hi>
+                  </speaker>
+                  <p>I am equally troubled to hear it; ſure theſe Men never conſulted <hi>Jeremiah</hi>'s Prophecy. <hi>Chap.</hi> 17. <hi>Ver.</hi> 10, 11. Where it's recorded, <hi>I the Lord ſearch the heart, I try the reins, even to give every man according to his way, and according to the fruit of his doings, as the Partridge ſitteth on eggs, and hatcheth them not: ſo he that getteth riches and not by right ſhall leave them in the midſt of his days, and at his end ſhall be a fool.</hi> It's much the <hi>Government</hi> doth not take cognizance of theſe matters.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Without doubt it doth Sir, I am ſure ſeveral great Men at t'other end of the <hi>Town</hi> are very ſenſible of the miſchievous Conſequences, theſe Practices muſt have, and will endeavour a Remedy next Seſſion of <hi>Par<g ref="char:EOLhyphen"/>liament.</hi> Peace, here comes a <hi>Stock-jobber</hi> and a <hi>Petiti<g ref="char:EOLhyphen"/>oner</hi> againſt the <hi>Eaſt India</hi> Company.</p>
+               </sp>
+               <sp>
+                  <speaker>St. <hi>J.</hi>
+                  </speaker>
+                  <p>We interrupt you Gentlemen, are you not buſie you are ſo cloſe together?</p>
+               </sp>
+               <sp>
+                  <pb n="6" facs="tcp:30551:4"/>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>No really Sir, my Friend, Mr. <hi>Wary,</hi> and <hi>I,</hi> have been almoſt half an hour talking about <hi>Stock Job<g ref="char:EOLunhyphen"/>bing.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>St.-J.</speaker>
+                  <p>A pleaſant Subject: And what I pray, is your Opinion of it?</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Truly, we are agreed, it is (as at preſent pra<g ref="char:EOLhyphen"/>cticed) a <hi>Publick Grievance:</hi> and we was juſt come to conſider, what courſe a Parliament will take to reme<g ref="char:EOLhyphen"/>dy it.</p>
+               </sp>
+               <sp>
+                  <speaker>St.-J.</speaker>
+                  <p>Hold, before we talk of a Remedy, why is it a Grievance?</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Why's deceitful, diſorderly, and exceſſive Ga<g ref="char:EOLhyphen"/>ming a Grievance; but becauſe among many other in<g ref="char:EOLhyphen"/>conveniences that attends it, it occaſions loſs of precious Time, and the ruine of Eſtates, ſo ſays the Act, <hi>Car.</hi> 2. <hi>Cap.—</hi>7. Now the <hi>Royal Oak Lottery,</hi> and <hi>Groom-Porter's Table,</hi> come far ſhort of this; the Wagering about Ta<g ref="char:EOLhyphen"/>king <hi>Towns</hi> begins to ſwell, but <hi>Stock-Jobbing</hi> exceeds by many degrees.</p>
+               </sp>
+               <sp>
+                  <speaker>St.-J.</speaker>
+                  <p>I believe for Sum it out-does the <hi>Oak, the Table,</hi> and <hi>the Wagers,</hi> put them all together: but then I deny your conſequence, for Time's improved, and Eſtates are got by buying and ſelling Stock.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Aye, as they are in the other three Exerciſes; to day <hi>A.</hi> gains, and <hi>B.</hi> loſes; to morrow <hi>B.</hi> gains, and <hi>A</hi> loſes; and thus their Times and Eſtates are imploy'd, and neither are any other ways ſerviceable to the Publick, then as at preſent they maintain a parcel of <hi>Brokers</hi> and <hi>Book-keepers,</hi> whoſe Proviſion, Poundage, and Transfers in proceſs of time will conſume all: Or do you account Time improved, or an Eſtate got, when you ſee a cun<g ref="char:EOLhyphen"/>ning Man grown rich by the ruine, in part, or in whole, of half a dozen, that have as much Honeſty, but fewer Brains than himſelf. Searching Mines, Improving Land,
+<pb n="7" facs="tcp:30551:4"/> Exerciſing Manufactures, Forreign and Domeſtick Traf<g ref="char:EOLhyphen"/>fick, are Noble Enterprizes, which denote a private Man publick ſpirited: by theſe the Poor are imploy'd, the Revenues increaſed, the H<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>our and Reputation of the Nation's inhanc'd, and his Succeſs affords equally ſatis<g ref="char:EOLhyphen"/>faction and applauſe: whereas, if one <hi>Stock-jobber</hi> get an Eſtate, another is undone, the Curſe of the Sufferer ac<g ref="char:EOLhyphen"/>companies it, and himſelf is deſpiſed by all Lookers-on: here's no <hi>Poor</hi> imploy'd, nor <hi>Cuſtoms</hi> or <hi>Exciſe</hi> paid, nor no—</p>
+               </sp>
+               <sp>
+                  <speaker>St.-J.</speaker>
+                  <p>Nay, hold, that's a miſtake; they muſt be ve<g ref="char:EOLhyphen"/>ry ignorant that know not, or have not heard of our Forreign <hi>Trade,</hi> the vaſt <hi>Cuſtoms</hi> our <hi>Companies</hi> pay, the <hi>Manufactures</hi> and <hi>Poor</hi> our other Stocks promote and imploy.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Tuſh, tuſh, I am not arguing againſt your <hi>Companies,</hi> nor their <hi>Stocks,</hi> but againſt <hi>Stock-jobbing;</hi> and I'll convince you, that this as now practiced, is of it ſelf ſufficient to deſtroy, at leaſt will greatly prejudice a<g ref="char:EOLhyphen"/>ny <hi>Company</hi> or <hi>Stock</hi> it relates to: Suppoſe I, and ten or twenty Men get a Patent of <hi>Incorporation</hi> for the Sole Uſe or Management of any <hi>Trade</hi> or <hi>Manufacture,</hi> which we extraordinarily well underſtand, and was morally aſſu<g ref="char:EOLhyphen"/>red it would give us 10, 20, or 30 <hi>per Cent</hi> for our time, and Money imployed therein, this is a ſufficient encourage<g ref="char:EOLhyphen"/>ment for us to attend, and uſe our utmoſt endeavours to conſerve and improve it; or if we part with <hi>ſome Shares</hi> or <hi>Proportion</hi> to others, while the preſent or proſpected advance or improvement meaſures the Price, there is no harm; but if by any Trick or Intrigue the Price of <hi>A<g ref="char:EOLhyphen"/>ctions</hi> or <hi>Shares</hi> are exceſſively raiſed (in ſome Stocks they have been twenty for one, in ſome more) beyond their value, the conſequence is the obſtruction, if not ruine of that <hi>Trade</hi> or <hi>Manufacture,</hi> at leaſt of that
+<pb n="8" facs="tcp:30551:5"/> 
+                     <hi>Company</hi> and <hi>Stock:</hi> for what thinking Man will not ſell himſelf out of a <hi>Stock,</hi> which for ſeven or ten years to come, ſucceeding to his wiſh, will not produce him more for his Intereſt than to day <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> may have; and ſuppoſing all of that mind, the prime <hi>Adventurers</hi> and <hi>
+                        <g ref="char:V">Ʋ</g>ndertakers</hi> that underſtand the Affair, are exchanged for others, who beſides their Ignorance, perceiving their Errour (that they muſt work for a dead Horſe) are diſcouraged from proceeding, and many of the <hi>Stocks</hi> that have ſo allarum'd the Kingdom, what ere's been pretended, were form'd by the Concern'd, but as Traps to inſnare the weak and in<g ref="char:EOLhyphen"/>conſiderate.</p>
+               </sp>
+               <sp>
+                  <speaker>St. J.</speaker>
+                  <p>I have patiently heard you, but how'll you pre<g ref="char:EOLhyphen"/>vent all this?</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>A <hi>Parliament</hi>'s Wiſdom will not want ways.</p>
+               </sp>
+               <sp>
+                  <speaker>St. J.</speaker>
+                  <p>I thought ſo, it's eaſier to wound then to cure, if there's ſuch fools you talk of, themſelves are the ſuffer<g ref="char:EOLhyphen"/>ers, ſure a Man may diſpoſe as he will of his own with<g ref="char:EOLhyphen"/>out Offence to any body, and for Buying and Selling <hi>Stock</hi> as I think it cannot, ſo it ought not to be prohibited or reſtrained.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>You talk merrily Sir, we are not about an abſolute Prohibition, only a Remedy againſt the preſent Practice; and I have heard others of your mind, that it is impoſſible to be obtained, but I have a different Senti<g ref="char:EOLhyphen"/>ments which anon I'le diſcover, only firſt let me tell you, a man cannot in all caſes do with his own what he plea<g ref="char:EOLhyphen"/>ſes, is not Trade regulated by Law, a Man cannot export or import ſundry Commodities tho his own, a Man can<g ref="char:EOLhyphen"/>not melt down the current Coyn of the Kingdom tho his own, and what means our Statutes againſt Gaming (as before) Monopolies, <hi>Jobbing, Foreſtalling, &amp;c.</hi> But to ſquare private Actions to the good of the Community, my Tongue's my own, yet if I ſwear I muſt pay a Shilling,
+<pb n="9" facs="tcp:30551:5"/> I can carry all my Effects into a Field and ſet Fire to them, but ſhould it become a Practice, aſſure your ſelf Care would be quickly taken to prevent it.</p>
+               </sp>
+               <sp>
+                  <speaker>St. J.</speaker>
+                  <p>What would you have a Fine or a corporal Pu<g ref="char:EOLhyphen"/>niſhment inflicted upon the Tranſgreſſors, it muſt be one of them.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>There's no neceſſity for that neither, ſuppoſe ſome ſuch Duty as Five Pounds <hi>per cent.</hi> or Share to the <hi>King</hi> was laid upon Transferrs in all <hi>Stocks</hi> incorporated by <hi>Charter</hi> that have a Publick Seal, in my Opinion that alone would cramp <hi>Stock-jobbing.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Petit.</speaker>
+                  <p>I profeſs I believe ſo too, if it was ſo order<g ref="char:EOLhyphen"/>ed that it could not be evaded, how Mr. <hi>Stock-jobber</hi> looks upon it.</p>
+               </sp>
+               <sp>
+                  <speaker>St. J.</speaker>
+                  <p>I'le vow that never entred my thoughts.</p>
+               </sp>
+               <sp>
+                  <speaker>Petit.</speaker>
+                  <p>Nor mine.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>W.</hi>
+                  </speaker>
+                  <p>Nor mine.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Nay it might be eaſily ſecured too, every Member's taking an Oath and entring into Bonds never to ſuffer anothers <hi>Stock</hi> in his Name, nor to Buy nor Sell <hi>Stock</hi> without its being actually transferred, and allowing upon Accompt the five <hi>per cent.</hi> or <hi>Share.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>St.-J.</speaker>
+                  <p>It would infallibly do the Buſineſs, but it would cruſh ſeveral <hi>Stocks</hi> to nothing.</p>
+               </sp>
+               <sp>
+                  <speaker>Petit.</speaker>
+                  <p>I am ſure it would quench the Thirſt after new <hi>Patents.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Gentlemen, it would only effect <hi>Stock-jobbing,</hi> the <hi>Stock</hi> themſelves would be benefited thereby, for the concerned in any that have or ſhall have a being, would then be obliged to proſecute what hitherto has only been pretended, and a noiſe made of. <hi>Viz.</hi> In imploying the Poor, and promoting Manufactures, or elſe it will appear they petition for Patents with no other Deſign, then ha<g ref="char:EOLhyphen"/>ving them to make Profit by ſelling them.</p>
+               </sp>
+               <sp>
+                  <pb n="10" facs="tcp:30551:6"/>
+                  <speaker>St.-J.</speaker>
+                  <p>But five <hi>per cent.</hi> will ſoon eat up the Profits and who then will be concerned in any publick <hi>Stocks?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Right, at the preſent rate of buying and ſelling, but Sir, a Patent or Charter would never be ſued for, un<g ref="char:EOLhyphen"/>leſs the concern'd propoſed greater Advantage by ſuch a joynt <hi>Trade</hi> or <hi>Manufacture,</hi> then can be made of their Money and Time in ordinary and common ways, we'll ſuppoſe only ten <hi>per cent. per annum</hi> gain, it may be twen<g ref="char:EOLhyphen"/>ty and ſo to fifty, now a ſingle five <hi>per cent.</hi> when a man diſpoſes of his Intereſt is no great Duty, if a <hi>Proprietor</hi> immediately ſells, he cannot complain, he hath his hu<g ref="char:EOLhyphen"/>mour, if he's an old Standard he'l have reapt the Advan<g ref="char:EOLhyphen"/>tage he may afford it; (and I think the intreſted in all <hi>Patents</hi> of this nature, ſhould be uncapable of ſelling till a certain time is elapſed, ſufficient for Proofs and Ex<g ref="char:EOLhyphen"/>periments of the Deſign, that People might know for what they part with their Money) but yet I do not ſay it muſt be juſt five <hi>per cent.</hi> or ſhare, it may be more or leſs as the nature of the thing requires, and probably it may be better impoſed upon the Buyer then Seller.</p>
+               </sp>
+               <sp>
+                  <speaker>St.-J.</speaker>
+                  <p>Well let'm do as they pleaſe, let's call another Cauſe.</p>
+               </sp>
+               <sp>
+                  <speaker>Petit.</speaker>
+                  <p>Then pray you Gentlemen, what do you think of the <hi>Eaſt India</hi> Company?</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Sir, it is very honourable in my eſteem, I wiſh I could ſay the ſame of ſome of its Members and their <hi>Actions.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>St.-J</speaker>
+                  <p>An <hi>Arch Rogue</hi> t'other day ſaid of another <hi>Com<g ref="char:EOLhyphen"/>pany</hi> that ſeperately they were worthy men, but together a Pack of Knaves, but I perceive Mr. <hi>Johnſon</hi> hath a good Opinion of this in the bulk, but hath different thoughts of ſome of the Managers.</p>
+               </sp>
+               <sp>
+                  <speaker>Petit.</speaker>
+                  <p>And not without reaſon, for he among thou<g ref="char:EOLhyphen"/>ſands more is a Sufferer by their late unworthy Practices,
+<pb n="11" facs="tcp:30551:6"/> in the diſpoſal of their Goods brought to <hi>England,</hi> and—</p>
+               </sp>
+               <sp>
+                  <speaker>St.-J.</speaker>
+                  <p>What, I warrant, you are grieved at private <hi>Contracts,</hi> the <hi>Company</hi> may not diſpoſe of their Goods as they think meet?</p>
+               </sp>
+               <sp>
+                  <speaker>Petit.</speaker>
+                  <p>Yes that I am and many other their baſe Pro<g ref="char:EOLhyphen"/>ceedings, but I hope e're long their Wings will be clipt.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Look you Gentlemen, private <hi>Contracts</hi> ought not to be made by a <hi>Company</hi> for Goods imported, (ex<g ref="char:EOLhyphen"/>cept with the Crown) unleſs Interlopers at the ſame time are allowed, and that for two Reaſons, as firſt, you and I that are natural born Subjects are hereby excluded the <hi>Eaſt India</hi> Trade, we are not permitted to trade direct<g ref="char:EOLhyphen"/>ly, neither ſhall we buy the Commodities of them that do; and ſecondly, allowing them this Practiſe, is granting them a Power to tax the Nation, when and to what de<g ref="char:EOLhyphen"/>gree they pleaſe, one hundred tun of <hi>Pepper</hi> or a hun<g ref="char:EOLhyphen"/>dred Bails of <hi>Muſlins</hi> arrive, which being (and there's al<g ref="char:EOLhyphen"/>ways one thing or another) wanting, they take the Ad<g ref="char:EOLhyphen"/>vantage of the Nation's Neceſſity, and priſe them ac<g ref="char:EOLhyphen"/>cordingly, whereas were the Goods fairly expoſed at the Candle in reaſonable Lots, the Company would have a ſufficient Profit, we ſhould all that are Buyers partake of the Trade, and the Publick would be ſerved at eaſier Rates.</p>
+               </sp>
+               <sp>
+                  <speaker>St.-J.</speaker>
+                  <p>And how if the <hi>Company</hi> loſes by a Publick Sale?</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>It muſt be their own Faults if it be by Com<g ref="char:EOLhyphen"/>modities they can gain by a private one, if they have too much of a Commodity can't they expoſe a part and re<g ref="char:EOLhyphen"/>ſerve the overplus till a more proper Seaſon, if they want Money, can't they borrow upon as eaſie terms as others?</p>
+               </sp>
+               <sp>
+                  <pb n="12" facs="tcp:30551:7"/>
+                  <speaker>St.-J.</speaker>
+                  <p>Yes, as they did, the <hi>Bettelles,</hi> which for want of a Price they kept ſeveral years, and during the time paid Intereſt for Money.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>And at the very nick, they might have had fifty <hi>per cent.</hi> Profit upon 'em, they were privately con<g ref="char:EOLhyphen"/>tracted out of their hands.</p>
+               </sp>
+               <sp>
+                  <speaker>Petit.</speaker>
+                  <p>That's true Sir.</p>
+               </sp>
+               <sp>
+                  <speaker>St.-J.</speaker>
+                  <p>But ſtill the <hi>Company</hi> are in the right, I think to make the moſt of their Goods, and you and your Friends may offer at a private <hi>Contract</hi> if you will as well as o<g ref="char:EOLhyphen"/>thers.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>And ſometimes an offer, and the higheſt hath ſignified nothing, but ſhall not a man trade himſelf, nor buy <hi>Eaſt India</hi> Commodities of the Importers, unleſs in conjunction with others, or that he can procure 30 or 40000 Pounds for a Purchaſe, where is Liberty and Property; I muſt conclude as I began, that theſe clan<g ref="char:EOLhyphen"/>deſtine doings are not allowable, a <hi>Monopoly</hi> was never deſign'd by their <hi>Charter,</hi> and tho' it's almoſt abſolute<g ref="char:EOLhyphen"/>ly neceſſary there be a <hi>Company,</hi> their <hi>Actions</hi> ought to correſpond with the Laws, Cuſtoms and Uſages of the Realm, and the Benefit of the Publick.<hi>—vid. Charters.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>St.-J.</speaker>
+                  <p>Only one word more: What Proviſion can poſſibly be made againſt Caballing and Combining to run down their Goods, if fairly expoſed?</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>I have heard this alledged in the <hi>Company</hi>'s fa<g ref="char:EOLhyphen"/>vour; but it is impracticable: there is always at a <hi>Court of Sales,</hi> Friends to the <hi>Company,</hi> well underſtood in all Commodities, that have more Money than there is Pen<g ref="char:EOLhyphen"/>ny worths for them, and you may remember what All, All, in the Long-Cloth coſt the <hi>Linnen-Drapers.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>St.-J.</speaker>
+                  <p>I am ſatisfied.</p>
+               </sp>
+               <sp>
+                  <speaker>Pet.</speaker>
+                  <p>But pray Mr. <hi>Johnſon,</hi> what do you imagine the Parliament will do with the Company.</p>
+               </sp>
+               <sp>
+                  <pb n="13" facs="tcp:30551:7"/>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>I think if the Company's ſilent Sir, they'll let them alone; but if they Petition again, they may proba<g ref="char:EOLhyphen"/>bly be eſtabliſhed.</p>
+               </sp>
+               <sp>
+                  <speaker>Pet.</speaker>
+                  <p>Marry, I hope not; ſhould the War they made be winked at, the ſundry Complaints againſt them from <hi>India,</hi> and <hi>St. Hellens,</hi> and for <hi>Monopolies,</hi> and <hi>private Contracts,</hi> &amp;c. be paſſed by, People would be much diſ<g ref="char:EOLhyphen"/>ſatisfied.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Nay, that does not follow, Proviſion in an Act of Settlement may be made, in theſe, and all other Points, to the ſatisfaction of the concern'd.</p>
+               </sp>
+               <sp>
+                  <speaker>Pet.</speaker>
+                  <p>But a calling thoſe to Account, whoſe ill manage<g ref="char:EOLhyphen"/>ment hath been the cauſe of all, is a neceſſary Ante<g ref="char:EOLhyphen"/>cedent.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Every body knows, ſome body has been faulty, and many of their late irregular Actions are not eaſily anſwer'd; but to find who are the Men, and how far they are culpable, requires a great deal of time; if that can't be ſpared, would you have the Nation, and the <hi>Company</hi> ſuffer for the Miſcarriages of a few private Men. It's moſt neceſſary ſome care be taken to ſecure this Trade; and how you'll do it better, than by eſtabliſhing this <hi>Company,</hi> is beyond my underſtanding.</p>
+               </sp>
+               <sp>
+                  <speaker>St.-J.</speaker>
+                  <p>I yet ſay, the guilty ought not to go unpuniſh<g ref="char:EOLhyphen"/>ed, and don't fear the loſs of the Trade; let it be declared open, and the preſent <hi>Company's Charter</hi> null, and in a week's time there'll be Subſcriptions enough for a New Company.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>You're but a word and a blow, I perceive; I am not excuſing the guilty, while I argue for the <hi>Company;</hi> I have been informed by thoſe that lived in <hi>India</hi> before this Company's time, that in that Trade there was loſs both out and home, ſo ſubtle was the Natives in lower<g ref="char:EOLhyphen"/>ing our Commodities upon the arrival of our Ships, and
+<pb n="14" facs="tcp:30551:8"/> inhancing their own during our ſtay; whereas the Com<g ref="char:EOLhyphen"/>pany having ſetled Colonies and Factories, Ships conſtant<g ref="char:EOLhyphen"/>ly going and returning, their Agents and Servants that contract with the <hi>Artificers</hi> themſelves, collecting their Manufactures in ſmall parcels, the Trade is brought to the perfection we now behold it: Would you have their Foundation for others to build upon? Certainly as they have merited highly of the Nation, they'll have the pre<g ref="char:EOLhyphen"/>ferrence.</p>
+               </sp>
+               <sp>
+                  <speaker>St.-J</speaker>
+                  <p>But eſtabliſh them excluſive to others, and you'll deſtroy what you boaſt of; for their Dividends have been ſo large, that (if any) ſuch a Stock is not remain<g ref="char:EOLhyphen"/>ing, as the Trade requires.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Then the Act that ſettles them, may oblige them to compleat it.</p>
+               </sp>
+               <sp>
+                  <speaker>St.-J.</speaker>
+                  <p>No, rather to open their Books, and let others ſubſcribe for it.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Aye, that's pretty, How much would you have ſubſcribed?</p>
+               </sp>
+               <sp>
+                  <speaker>St.-J.</speaker>
+                  <p>460218 to make their 739782 1200000 <hi>l.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>So; And what if Two Millions be ſubſcri<g ref="char:EOLhyphen"/>bed?</p>
+               </sp>
+               <sp>
+                  <speaker>Pet.</speaker>
+                  <p>Then lower every Man's Parcel according to his Subſcription.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>An excellent Propoſal; if Sir <hi>H. E.</hi> ſubſcribe 50000, and you 100 <hi>l.</hi> he will go into the Stock with 12500 <hi>l.</hi> and you with 25 <hi>l.</hi> Look ye Sir, if nothing will ſerve, but the Books muſt be opened, were I to or<g ref="char:EOLhyphen"/>der it, the 460218 <hi>l.</hi> ſhould be expos'd in Lots, all Per<g ref="char:EOLhyphen"/>ſons, as well Members as others, free to bid; the Money ſhould be paid to the Company, and the Buyers have Credit for the Sum.</p>
+               </sp>
+               <sp>
+                  <speaker>Pet.</speaker>
+                  <p>As I live, you deſerve the Thanks of a General Court for this Notion.</p>
+               </sp>
+               <sp>
+                  <pb n="15" facs="tcp:30551:8"/>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>I am ſerious Sir: but I have ſeen another Mo<g ref="char:EOLhyphen"/>del for an <hi>East-India</hi> Company, which were it enacted, I believe, would give general ſatisfaction, the Company, their Friends, and their Enemies muſt all allow of it.</p>
+               </sp>
+               <sp>
+                  <speaker>Pet.</speaker>
+                  <p>Would I had a ſight of it.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Here it is, I'll read it; the Title is only, <hi>An Expedient,</hi> &amp;c.</p>
+               </sp>
+               <p>THAT the Preſent <hi>East-India</hi> Company be eſta<g ref="char:EOLhyphen"/>bliſhed.</p>
+               <p>That their Stock of 739782 <hi>l.</hi> be made a Million, (or more) as the <hi>Parliament</hi> thinks meet.</p>
+               <p>That the 460218 <hi>l.</hi> ſhall be advanced by the <hi>preſent Members</hi> proportionable to their <hi>Stocks,</hi> and Refuſers obli<g ref="char:EOLhyphen"/>ged to ſell.</p>
+               <p>That no Member ſhall at any time during the <hi>Company</hi> have above 10000 <hi>l.</hi> Stock, and thoſe that at preſent have more, be obliged to ſell it.</p>
+               <p>That every Thouſand Pounds Credit (whether of one or more Perſons) ſhall have a Vote, and he that hath Ten thouſand to have no more.</p>
+               <p>That every Member take an Oath, and ſeal a Bond, not to ſuffer another's <hi>Stock</hi> in his Name, or to have a<g ref="char:EOLhyphen"/>ny in the Name of another; and that he will not ſell, without actually transferring the ſame.</p>
+               <p>That for every Hundred Pound bought after the Stock is ſo ſetled, Five pounds ſhall be paid to the <hi>King</hi> by the Buyer.</p>
+               <p>That no Money be taken at Intereſt, but if more is re<g ref="char:EOLhyphen"/>quired, in like manner to be advanced by the Members.</p>
+               <p>That there be no private Contracts (unleſs with the <hi>King)</hi> for any Goods imported, but that they be fairly ſold in reaſonable Lots, in open Court, the higheſt Bid<g ref="char:EOLhyphen"/>der to be the Buyer.</p>
+               <pb n="16" facs="tcp:30551:9"/>
+               <p> That <hi>Commiſſioners</hi> be appointed to hear and determine paſt Matters between the <hi>Company,</hi> and others that pre<g ref="char:EOLhyphen"/>tend to be injured, if they make their <hi>Appeals</hi> in a certain time. It matters not whether the <hi>Commiſſioners</hi> are Mem<g ref="char:EOLhyphen"/>bers or not, if Men of Ability, Integrity, and Ho<g ref="char:EOLhyphen"/>nour.</p>
+               <sp>
+                  <speaker>Pet.</speaker>
+                  <p>Amen. I ſay this.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>Then you like theſe Propoſals.</p>
+               </sp>
+               <sp>
+                  <speaker>Pet.</speaker>
+                  <p>Yes; and no body that's ſincere in their Clamors can diſlike them.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>J.</hi>
+                  </speaker>
+                  <p>I think here's Care taken to remedy all Evils, and ſupply all Defects. <hi>Gentlemen,</hi> a good Night to you.</p>
+               </sp>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="license">
+            <p>LONDON: <hi>Printed for</hi> S. Eddowes, <hi>under the</hi> Royal Ex<g ref="char:EOLhyphen"/>change <hi>in</hi> Cornhil. 1691.</p>
+            <pb facs="tcp:30551:9"/>
+         </div>
+      </back>
+   </text>
+</TEI>
